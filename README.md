@@ -14,7 +14,7 @@ The architecture is shown as follows:
 
 ### ✨ MEGC 2023
 
-![Result_on_DFEW](figs/Result_on_DFEW.png)
+![MEGC_Leaderboard result](figs/MEGC_Leaderboard result.jpg)
 
 
 ## 🔨 Installation
