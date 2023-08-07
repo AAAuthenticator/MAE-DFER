@@ -1,8 +1,5 @@
 # MAE-DFER: Efficient Masked Autoencoder for Self-supervised Dynamic Facial Expression Recognition (ACM MM 2023)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mae-dfer-efficient-masked-autoencoder-for/dynamic-facial-expression-recognition-on-dfew)](https://paperswithcode.com/sota/dynamic-facial-expression-recognition-on-dfew?p=mae-dfer-efficient-masked-autoencoder-for)<br>
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mae-dfer-efficient-masked-autoencoder-for/dynamic-facial-expression-recognition-on)](https://paperswithcode.com/sota/dynamic-facial-expression-recognition-on?p=mae-dfer-efficient-masked-autoencoder-for)<br>
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mae-dfer-efficient-masked-autoencoder-for/dynamic-facial-expression-recognition-on-mafw)](https://paperswithcode.com/sota/dynamic-facial-expression-recognition-on-mafw?p=mae-dfer-efficient-masked-autoencoder-for)<br>
 
 ## ✨ Abstract
 
@@ -15,35 +12,9 @@ The architecture of LGI-Former is shown as follows:
 
 ## 🚀 Main Results
 
-### ✨ DFEW
+### ✨ MEGC 2023
 
 ![Result_on_DFEW](figs/Result_on_DFEW.png)
-
-### ✨ FERV39k
-
-![Result_on_FERV39k](figs/Result_on_FERV39k.png)
-
-### ✨ MAFW
-
-![Result_on_MAFW](figs/Result_on_MAFW.png)
-
-
-## 👀 Visualization
-
-### ✨ Reconstruction 
-
-Sample with showing frame difference (According to the reviewer's request, we show both the reconstructed frame difference signal in *even* frames and the whole video in *all* frames by adding the reconstructed frame difference signal in *even* frames with the adjacent reconstructed *odd* frames):
-![Sample_with_showing_frame_difference](figs/Sample_with_showing_frame_difference.png)
-
-More samples without showing frame difference (For simplicity, we do not show the reconstructed frame difference signal and only show the whole reconstructed video in the Appendix of the paper):
-![More_samples_without_showing_frame_difference](figs/More_samples_without_showing_frame_difference.png)
-
-
-### ✨ t-SNE on DFEW
-
-
-![t-SNE_on_DFEW](figs/t-SNE.png)
-
 
 
 ## 🔨 Installation
@@ -102,26 +73,7 @@ Download the model pre-trained on VoxCeleb2 from [this link](https://drive.googl
   
     Our running log file can be found in [this file](logs/dfew.out).
 
-- FERV39k
 
-    ```
-    sh scripts/ferv39k/finetune_local_global_attn_depth16_region_size2510_with_diff_target_164.sh
-    ```
-  
-    Our running log file can be found in [this file](logs/ferv39k.out).
-
-- MAFW
-
-    ```
-    sh scripts/mafw/finetune_local_global_attn_depth16_region_size2510_with_diff_target_164.sh
-    ```
-  
-    Our running log file can be found in [this file](logs/mafw.out).
-
-
-## 📰 TODO
-
-1. Release the fine-tuned models on all DFER datasets.
 
 
 
