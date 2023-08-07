@@ -14,7 +14,7 @@ The architecture is shown as follows:
 
 ### ✨ MEGC 2023
 
-![Leaderboard result]((https://github.com/AAAuthenticator/MAE-DFER/blob/master/figs/Leaderboard%20result.jpg))
+![Leaderboard result](https://github.com/AAAuthenticator/MAE-DFER/blob/master/figs/Leaderboard%20result.jpg)
 
 
 ## 🔨 Installation
