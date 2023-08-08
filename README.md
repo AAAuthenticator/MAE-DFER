@@ -7,7 +7,7 @@ The task of interval localization of macro- and micro-expression in long videos 
 
 The architecture is shown as follows:
 
-![LGI-Former](figs/LGI-Former.png)
+![frame](https://github.com/AAAuthenticator/MESpotting/blob/master/figs/frame.png)
 
 
 ## 🚀 Main Results
