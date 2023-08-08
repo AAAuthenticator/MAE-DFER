@@ -65,13 +65,14 @@ Download the model pre-trained on VoxCeleb2 from [this link](https://drive.googl
 
 ## ⤴️ Fine-tuning with pre-trained models
 
-- DFEW
+- 
 
     ```
-    sh scripts/dfew/finetune_local_global_attn_depth16_region_size2510_with_diff_target_164.sh
+    sh finetune_cas_macro.sh
     ```
+    just an example for fine-tuning, you might edit datasets.py, engine_for_finetuning.py, run_class_finetuning.py to suit your data
   
-    Our running log file can be found in [this file](logs/dfew.out).
+
 
 
 
