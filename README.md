@@ -45,18 +45,18 @@ The annotation usually includes `train.csv`, `val.csv` and `test.csv`. The forma
 
 ```
 dataset_root/video_1  label_1
-dataset_root/video_2  label_2
-dataset_root/video_3  label_3
+dataset_root/video_2  label_0
+dataset_root/video_3  label_1
 ...
-dataset_root/video_N  label_N
+dataset_root/video_N  label_0
 ```
 
 An example of [train.csv](saved/data/dfew/org/split01/train.csv) of DFEW fold1 (fd1) is shown as follows:
 
 ```
-/mnt/data1/brain/AC/Dataset/DFEW/Clip/jpg_256/02522 5
-/mnt/data1/brain/AC/Dataset/DFEW/Clip/jpg_256/02536 5
-/mnt/data1/brain/AC/Dataset/DFEW/Clip/jpg_256/02578 6
+/mnt/data1/brain/AC/Dataset/DFEW/Clip/jpg_256/02522 1
+/mnt/data1/brain/AC/Dataset/DFEW/Clip/jpg_256/02536 0
+/mnt/data1/brain/AC/Dataset/DFEW/Clip/jpg_256/02578 1
 ```
 
 ## 📍Pre-trained Model
